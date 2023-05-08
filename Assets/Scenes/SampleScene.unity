@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &317986818
+--- !u!1 &3179356
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,36 +131,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 317986820}
-  - component: {fileID: 317986819}
+  - component: {fileID: 3179358}
+  - component: {fileID: 3179357}
   m_Layer: 0
-  m_Name: GameManagerObject
+  m_Name: GameMangerObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &317986819
+--- !u!114 &3179357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317986818}
+  m_GameObject: {fileID: 3179356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ffb35b7491f1aa41992cd74a1179bf4, type: 3}
+  m_Script: {fileID: 11500000, guid: c04e21a0dbaee264cba5b5359cf9770a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &317986820
+  playerPreFab: {fileID: 5610280790977659982, guid: 92da3044a07c0e9489bc02c3419873a2, type: 3}
+--- !u!4 &3179358
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317986818}
+  m_GameObject: {fileID: 3179356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.4277735, y: 0.074491024, z: -4.97614}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
